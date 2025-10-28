@@ -1,0 +1,17 @@
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background-color:#0a192f; color:#ccd6f6;}
+section { padding-top: 80px; padding-bottom: 60px;}
+.hero {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/images/background.jpg') center/cover no-repeat;
+  color: white;
+}
+.highlight { color: #64ffda; }
+.profile-img { max-width: 220px; border: 4px solid #64ffda; transition: 0.3s; }
+.profile-img:hover { transform: scale(1.05); box-shadow: 0 0 15px #64ffda; }
+.card:hover { transform: scale(1.05); transition: 0.3s; box-shadow: 0 8px 20px rgba(0,0,0,0.3); }
+.btn-primary { background-color: #64ffda; border: none; color: #0a192f; }
+.btn-primary:hover { background-color: transparent; border: 1px solid #64ffda; color: #64ffda; }
