@@ -1,0 +1,1 @@
+Place profile.jpg, background.jpg, and skill icons here.
